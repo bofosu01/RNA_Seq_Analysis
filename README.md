@@ -36,46 +36,6 @@ The following tools and softwares must be installed and available:
 -   spades v3.15.5 (<https://github.com/ablab/spades/releases>)
 -   conda (<https://anaconda.org/anaconda/conda>)
 
-## Repository Structure
-
----
-├─ \~/HCMV/
-\|──BLAST/
-\|──genome
-\|── genome.ndb
-\|──genome.nhr
-\|──genome.nin
-\|──genome.not
-\|──genome.nsq
-\|──genome.ntf
-\|──genome.nto
-
-\|──GCF_000845245.1/
-\|──genomic.fna
-\|──genomic.gff
-
-\|──README.md/
-
-\|──SCRIPTS/
-\|──count_reads.sh
-\|──extract_cds.py
-\|──longest_contig.py
-\|──sleuth_analysis.R
-
-\|──SNAKEMAKE/
-\|──Snakefile
-
-\|──TESTS/
-\|──SRR5660030_1.fastq
-\|──SRR5660030_2.fastq
-\|──SRR5660033_1.fastq
-\|──SRR5660033_2.fastq
-\|──SRR5660044_1.fastq
-\|──SRR5660044_2.fastq
-\|──SRR5660045_1.fastq
-\|──SRR5660045_2.fastq
----
-
 ## Downloading the repository
 
 Clone this repository into your **home directory** before running the pipeline.
@@ -101,3 +61,4 @@ Move into the directory containing the Snakefile
 ### Run the pipeline
 
 `snakemake --cores 4`
+
