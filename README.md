@@ -38,19 +38,31 @@ The following tools and softwares must be installed and available:
 
 ## Downloading the repository
 
-Clone this repository into your **home directory** before running the pipeline.
+On your Terminal, run in any directory of your choice:
 
-`      
-cd ~
-`
+`git clone https://github.com/bofosu01/rna_seq_analysis.git`
 
-From your home directory, run:
+Moving into the directory containing all the files in the github repository
+`cd rna_seq_analysis`
 
-`git clone https://github.com/bofosu01/RNA_Seq_Analysis.git`
+---
+total 24K
+drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 BLAST
+drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 GCF_000845245.1
+-rw-r--r-- 1 bofosu student 2.2K Feb 22 19:15 README.md
+drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 SCRIPTS
+drwxr-xr-x 3 bofosu student 4.0K Feb 22 19:16 SNAKEMAKE
+drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 TESTS
+---
 
-Move into the directory containing the Snakefile
+Move into the **SNAKEMAKE** directory. It contains the `Snakefile`
 
-`cd HCMV/SNAKEMAKE`
+`cd SNAKEMAKE`
+
+---
+total 8.0K
+-rw-r--r-- 1 bofosu student 7.7K Feb 22 19:15 Snakefile
+---
 
 ## How to run the pipeline
 
@@ -61,4 +73,18 @@ Move into the directory containing the Snakefile
 ### Run the pipeline
 
 `snakemake --cores 4`
+### Results
+
+---
+total 32K
+drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 BLAST
+drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 GCF_000845245.1
+-rw-r--r--  1 bofosu student 2.6K Feb 22 19:25 Ofosu_PipelineReport.txt
+drwxr-xr-x 11 bofosu student 4.0K Feb 22 19:25 OUTPUTS
+-rw-r--r--  1 bofosu student 2.2K Feb 22 19:15 README.md
+drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:25 SCRIPTS
+drwxr-xr-x  3 bofosu student 4.0K Feb 22 19:25 SNAKEMAKE
+drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 TESTS
+---
+
 
