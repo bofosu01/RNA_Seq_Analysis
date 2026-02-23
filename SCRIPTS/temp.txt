@@ -1,0 +1,36 @@
+
+Attaching package: ‘dplyr’
+
+The following objects are masked from ‘package:stats’:
+
+    filter, lag
+
+The following objects are masked from ‘package:base’:
+
+    intersect, setdiff, setequal, union
+
+[1] "SRR5660030" "SRR5660033" "SRR5660044" "SRR5660045"
+reading in kallisto results
+dropping unused factor levels
+....
+normalizing est_counts
+146 targets passed the filter
+normalizing tpm
+merging in metadata
+summarizing bootstraps
+....
+fitting measurement error models
+shrinkage estimation
+7 NA values were found during variance shrinkage estimation due to mean observation values outside of the range used for the LOESS fit.
+The LOESS fit will be repeated using exact computation of the fitted surface to extrapolate the missing values.
+These are the target ids with NA values: YP_081574.1, YP_081606.1, YP_081539.1, YP_081583.1, YP_081584.1, YP_081496.1, YP_081563.1
+computing variance of betas
+fitting measurement error models
+shrinkage estimation
+7 NA values were found during variance shrinkage estimation due to mean observation values outside of the range used for the LOESS fit.
+The LOESS fit will be repeated using exact computation of the fitted surface to extrapolate the missing values.
+These are the target ids with NA values: YP_081574.1, YP_081606.1, YP_081539.1, YP_081583.1, YP_081584.1, YP_081496.1, YP_081563.1
+computing variance of betas
+Warning message:
+In write.table(sig, file = "../OUTPUTS/TEMP/sleuth_report.txt",  :
+  appending column names to file
