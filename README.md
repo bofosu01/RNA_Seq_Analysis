@@ -49,10 +49,15 @@ Moving into the directory containing all the files in the github repository
 
 total 24K
 drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 BLAST
+
 drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 GCF_000845245.1
+
 -rw-r--r-- 1 bofosu student 2.2K Feb 22 19:15 README.md
+
 drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 SCRIPTS
+
 drwxr-xr-x 3 bofosu student 4.0K Feb 22 19:16 SNAKEMAKE
+
 drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 TESTS
 
 ---
@@ -81,15 +86,23 @@ total 8.0K
 
 total 32K
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 BLAST
+
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 GCF_000845245.1
+
 -rw-r--r--  1 bofosu student 2.6K Feb 22 19:25 Ofosu_PipelineReport.txt
+
 drwxr-xr-x 11 bofosu student 4.0K Feb 22 19:25 OUTPUTS
+
 -rw-r--r--  1 bofosu student 2.2K Feb 22 19:15 README.md
+
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:25 SCRIPTS
+
 drwxr-xr-x  3 bofosu student 4.0K Feb 22 19:25 SNAKEMAKE
+
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 TESTS
 
 ---
+
 
 
 
