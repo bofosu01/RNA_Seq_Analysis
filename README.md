@@ -40,12 +40,18 @@ The following tools and softwares must be installed and available:
 
 On your Terminal, run in any directory of your choice:
 
-`git clone https://github.com/bofosu01/rna_seq_analysis.git`
+```{=html}
+git clone https://github.com/bofosu01/rna_seq_analysis.git
+
+```
 
 Moving into the directory containing all the files in the github repository
 
 
-`cd rna_seq_analysis`
+```{=html}
+cd rna_seq_analysis
+
+```
 
 
 ```{=html}
@@ -67,7 +73,10 @@ drwxr-xr-x 2 bofosu student 4.0K Feb 22 19:15 TESTS
 
 Move into the **SNAKEMAKE** directory. It contains the `Snakefile`
 
-`cd SNAKEMAKE`
+```{=html}
+cd SNAKEMAKE
+
+```
 
 ```{=html}
 total 8.0K
@@ -78,11 +87,17 @@ total 8.0K
 
 ### Dry run Check that everything is connected correctly
 
-`snakemake --dry-run`
+```{=html}
+snakemake --dry-run
+
+```
 
 ### Run the pipeline
 
-`snakemake --cores 4`
+```{=html}
+snakemake --cores 4
+```
+
 ### Results
 
 ```{=html}
@@ -105,6 +120,7 @@ drwxr-xr-x  3 bofosu student 4.0K Feb 22 19:25 SNAKEMAKE
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 TESTS
 
 ```
+
 
 
 
