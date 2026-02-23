@@ -38,7 +38,7 @@ The following tools and softwares must be installed and available:
 
 ## Downloading the repository
 
-On your Terminal, run in any directory of your choice:
+In your Terminal, run in any directory of your choice:
 
 ```{=html}
 git clone https://github.com/bofosu01/rna_seq_analysis.git
@@ -120,6 +120,7 @@ drwxr-xr-x  3 bofosu student 4.0K Feb 22 19:25 SNAKEMAKE
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 TESTS
 
 ```
+
 
 
 
