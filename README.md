@@ -66,10 +66,10 @@ Move into the **SNAKEMAKE** directory. It contains the `Snakefile`
 
 `cd SNAKEMAKE`
 
----
+```{=html}
 total 8.0K
 -rw-r--r-- 1 bofosu student 7.7K Feb 22 19:15 Snakefile
----
+```
 
 ## How to run the pipeline
 
@@ -82,7 +82,7 @@ total 8.0K
 `snakemake --cores 4`
 ### Results
 
----
+```{=html}
 
 total 32K
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 BLAST
@@ -101,7 +101,8 @@ drwxr-xr-x  3 bofosu student 4.0K Feb 22 19:25 SNAKEMAKE
 
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 TESTS
 
----
+```
+
 
 
 
