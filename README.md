@@ -6,7 +6,7 @@ This repository contains a reproducible Snakemake-based Python pipeline for anal
 
 ## Overview of Analysis
 
-We compare HCMV transcriptomes from;
+We compared HCMV transcriptomes from;
 
 | Donor   | Timepoint | SRA Accession |
 |---------|-----------|---------------|
@@ -154,6 +154,7 @@ drwxr-xr-x  3 bofosu student 4.0K Feb 22 19:25 SNAKEMAKE
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 TESTS
 
 ```
+
 
 
 
