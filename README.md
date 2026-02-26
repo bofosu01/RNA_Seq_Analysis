@@ -141,7 +141,7 @@ drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 BLAST
 
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 GCF_000845245.1
 
--rw-r--r--  1 bofosu student 2.6K Feb 22 19:25 Ofosu_PipelineReport.txt
+-rw-r--r--  1 bofosu student 2.6K Feb 22 19:25 PipelineReport.txt
 
 drwxr-xr-x 11 bofosu student 4.0K Feb 22 19:25 OUTPUTS
 
@@ -154,6 +154,7 @@ drwxr-xr-x  3 bofosu student 4.0K Feb 22 19:25 SNAKEMAKE
 drwxr-xr-x  2 bofosu student 4.0K Feb 22 19:15 TESTS
 
 ```
+
 
 
 
